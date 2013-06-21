@@ -1,7 +1,7 @@
 CFLAGS=-Wall -g
 
 all:
-	make clean; make ex1; 
+	make clean; make print_bytes; 
 
 clean:
-	rm -f ex1
+	rm -f print_bytes
